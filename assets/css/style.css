@@ -1,0 +1,407 @@
+body {
+  background: #fefefe;
+  overflow-x: hidden;
+}
+
+.header-top {
+  background: #eeeeea;
+}
+
+.header-middle {
+  background-image: url("../img/header2.jpg");
+  background-color: #fefefe;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 570px;
+  position: relative;
+  overflow: hidden;
+}
+
+.content-div {
+  width: 190px;
+  height: 200px;
+  background-color: #6f42c1;
+  margin-top: -70px;
+}
+
+.service-fig img {
+  position: absolute;
+  top: 0px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.content-text {
+  position: absolute;
+  text-align: right;
+  padding: 8px;
+}
+
+.title-service {
+  font-size: x-large;
+  margin-top: -18px;
+  margin-bottom: 12px;
+}
+
+.position-service {
+  font-weight: 400;
+}
+
+#text-header1, #text-header2 {
+  background-color: rgba(25, 25, 24, 0.4);
+  position: absolute;
+  top: 20%;
+  left: 75%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 36%;
+  float: right;
+  color: #3b3b3b;
+  text-align: right;
+}
+
+#text-header1 {
+  top: 20%;
+}
+
+#text-header2 {
+  top: 60%;
+}
+
+.header-text h2, .header-text h3 {
+  font-weight: bold;
+  color: #f8f9fa;
+  padding: 2px;
+}
+
+hr.star-dark {
+  max-width: 15rem;
+  padding: 0;
+  text-align: center;
+  border: none;
+  border-top: solid 0.25rem;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+hr.star-dark:after {
+  position: relative;
+  top: -.8em;
+  display: inline-block;
+  padding: 0 0.25em;
+  content: '\f1ea';
+  font-family: "Font Awesome 5 Free";
+  font-weight: 400;
+  font-size: 2em;
+  background-color: #fefefe;
+}
+
+.news-div {
+  background-color: #fefefe;
+  height: 180px;
+  width: 90%;
+  margin: 5px;
+  display: inline-block;
+}
+
+.news-content {
+  width: 65%;
+  text-align: right;
+  direction: rtl;
+  padding-left: 5px;
+}
+
+.news-content .posted-by {
+  font-size: x-small;
+  color: #9da0a0;
+  padding: 8px 0px;
+}
+
+.news-content .posted-date {
+  display: inline;
+}
+
+.news-content .news-text {
+  font-size: small;
+  font-weight: 500;
+}
+
+.news-content .news-more {
+  margin-top: -8px;
+}
+
+.news-pic {
+  background-color: #0c5460;
+  max-width: 32%;
+  float: right;
+  overflow: hidden;
+}
+
+.news-pic img {
+  width: 268px;
+  margin-left: -63px;
+}
+
+.event-div {
+  background-color: #fefefe;
+  height: 117px;
+  width: 90%;
+  margin: 10px;
+}
+
+div.fig-day, .fig-month {
+  color: #0069d9;
+}
+
+div.fig-day {
+  font-weight: 700;
+  font-size: 45px;
+  padding-top: 15%;
+}
+
+.fig-month {
+  padding-left: 9px;
+}
+
+.event-div {
+  display: inline-block;
+}
+
+.event-div > figure {
+  width: 25%;
+  float: right;
+  height: 95%;
+  text-align: center;
+}
+
+.content-event {
+  float: right;
+  padding: 2px;
+  width: 75%;
+}
+
+.address-event {
+  font-size: x-small;
+  list-style: none;
+  padding-right: 4%;
+  float: right;
+}
+
+.address-event > li {
+  display: inline;
+}
+
+.title-event {
+  width: 96%;
+  text-align: right;
+}
+
+.content-event > div {
+  position: relative;
+  top: 15px;
+  left: 4px;
+  display: inline-block;
+}
+
+.section-exprince {
+  background-image: url("../img/KINDERGARTE2N.jpg");
+  background-size: cover;
+  margin-top: 50px;
+  height: 250px;
+  background-position: left;
+}
+
+.variables > .name {
+  float: left;
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 12px;
+  color: #000000;
+}
+
+.variables > .amount {
+  float: left;
+  font-size: 38px;
+  font-weight: 700;
+  margin-right: 8px;
+  color: #4e9dcc;
+}
+
+hr.star-dark {
+  max-width: 15rem;
+  padding: 0;
+  text-align: center;
+  border: none;
+  border-top: solid 0.25rem;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+hr.star-dark-doctor {
+  max-width: 15rem;
+  padding: 0;
+  text-align: center;
+  border: none;
+  border-top: solid 0.25rem;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+hr.star-dark-doctor:after {
+  position: relative;
+  top: -.8em;
+  display: inline-block;
+  padding: 0 0.25em;
+  content: '\f007';
+  font-family: "Font Awesome 5 Free";
+  font-weight: 400;
+  font-size: 2em;
+  background-color: #fefefe;
+}
+
+.persons {
+  padding: 0px;
+  position: relative;
+  overflow: hidden;
+  height: 327px;
+  margin: 8px;
+  max-width: 270px;
+}
+
+#row-doc {
+  margin-left: -7%;
+  width: 113%;
+}
+
+.light-flash {
+  position: absolute;
+  left: -55px;
+  width: 700px;
+  height: 100px;
+  background: rgba(255, 255, 255, 0.03);
+  top: 300px;
+  -webkit-transition: 600ms;
+  transition: 600ms;
+}
+
+.persons:hover .light-flash {
+  top: 0;
+  height: 1px;
+  background-color: rgba(253, 251, 231, 0.49);
+}
+
+.persons img {
+  width: 100%;
+  height: 77%;
+}
+
+.info-person {
+  background-color: rgba(27, 30, 33, 0.3);
+  text-align: center;
+  position: relative;
+  top: 0px;
+}
+
+.contact-persons {
+  list-style: none;
+  padding-left: 0;
+}
+
+.info-person li {
+  display: inline;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.childern {
+  background-color: #138496;
+  width: 400px;
+  height: 315px;
+}
+
+.service1 {
+  background-color: #0b2e13;
+  width: 220px;
+  height: 150px;
+}
+
+.service2 {
+  background-color: #d3d9df;
+  width: 125px;
+  height: 150px;
+}
+
+.service3 {
+  background-color: #6f42c1;
+  width: 125px;
+  height: 150px;
+}
+
+.img-backgrand-map {
+  background-image: url("../img/map.jpg");
+  height: 500px;
+}
+
+.address-div {
+  background-color: #fdfdfe;
+  height: 323px;
+  position: relative;
+  top: 85px;
+}
+
+.address-div2 {
+  height: 50px;
+}
+
+.hr-address {
+  width: 104%;
+  margin-left: -14px;
+}
+
+.main-address {
+  margin-top: 42px;
+}
+
+.main-map {
+  margin-top: 35px;
+}
+
+.pic-footer1 {
+  float: right;
+  width: 50px;
+  height: 50px;
+  background-color: #17a2b8;
+}
+
+.text-pic-footer {
+  float: right;
+  margin-right: 10px;
+}
+
+.text-web-footer {
+  width: 200px;
+  display: inline-block;
+}
+
+.date-web-footer {
+  float: right;
+  font-size: small;
+  padding: 8px;
+}
+
+.pic-insta {
+  float: right;
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  background-color: #9fcdff;
+  margin: 2.5px;
+}
